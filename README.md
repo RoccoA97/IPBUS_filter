@@ -19,4 +19,4 @@
 ### Abstract
 In this project we implement a FIR filter co-processor in FPGA (**ARTY xc7a35tcsg324-1**), along with input/output data storage and transfer protocols. In particular, we use the IPbus protocol for communication with the FPGA board and a DPRAM component as memory source. We test the hardware implementation of the filter on several input waveforms and we compare the results with the ones obtained through a Python simulation.
 
-The complete report of this project can be found [**here**](https://github.com/RoccoA97/VHDL_IPBUS_filter/blob/main/report/main/main.pdf)
+The complete report of this project can be found [**here**](https://github.com/RoccoA97/VHDL_IPBUS_filter/blob/master/report/main/main.pdf)
