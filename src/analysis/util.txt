@@ -1,0 +1,28 @@
+DOCUMENTATION
+
+setup:
++ launch Vivado and open the projecy
++ launch bitstream writing
++ open the Hardware Manager -> Autoconnect -> Program device
++ open the shell and configure the addresses:
+	++ $ sudo ifconfig eno1 10.10.10.1 # nuc pc
+	++ $ ping 10.10.10.100             # fpga
++ check if everything is ok and if you are able to ping the fpga
++ enter inside ipbus-sofware: cd ~/ipbus-software/
++ $ source ./uhal/tests/setup.sh
++ enter in: cd /home/student08/Desktop/final_project/final_project_IPBUS/Progetto/software
+	(~/Desktop/progetto_finale/exercise_2/final_project_IPBUS/Progetto/software)
++ $ python -i ipbus_test.py
+
+
+data = hw.getNode('regs').readBlock(20) # read from reg
+hw.dispatch()                           # send ipbus transaction
+data.value()
+data_to_write=range(20)
+data = hw.getNode('regs').writeBlock(data_to_write)
+hw.dispatch()
+data = hw.getNode('regs').readBlock(1024)
+hw.dispatch()
+data.value()
+
+reg is defined inside the folder software

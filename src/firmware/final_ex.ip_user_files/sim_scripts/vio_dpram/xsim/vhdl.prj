@@ -1,0 +1,4 @@
+vhdl xil_defaultlib  \
+"../../../../Lab9.srcs/sources_1/ip/vio_dpram/sim/vio_dpram.vhd" \
+
+nosort

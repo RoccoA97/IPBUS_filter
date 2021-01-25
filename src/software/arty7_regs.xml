@@ -1,0 +1,3 @@
+<node id="TOP">
+  <node id="regs"   address="0x000000"  mode="block" size="1024"  description="flash registers" permission = "rw" fwinfo="endpoint;width=10" />
+</node>

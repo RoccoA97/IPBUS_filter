@@ -1,0 +1,156 @@
+/*
+
+Xilinx Vivado v2018.3 (64-bit) [Major: 2018, Minor: 3]
+SW Build: 2405991 on Thu Dec  6 23:36:41 MST 2018
+IP Build: 2404404 on Fri Dec  7 01:43:56 MST 2018
+
+Process ID (PID): 214674
+License: Customer
+
+Current time: 	Tue Jan 07 18:10:11 CET 2020
+Time zone: 	Central European Standard Time (Europe/Rome)
+
+OS: CentOS Linux release 7.7.1908 (Core)
+OS Version: 3.10.0-1062.4.1.el7.x86_64
+OS Architecture: amd64
+Available processors (cores): 16
+
+Display: localhost:10.0
+Screen size: 1920x1080
+Screen resolution (DPI): 96
+Available screens: 2
+Available disk space: 356 GB
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+
+Java version: 	9.0.4 64-bit
+Java home: 	/home/eda/xilinx/Vivado/2018.3/tps/lnx64/jre9.0.4
+Java executable location: 	/home/eda/xilinx/Vivado/2018.3/tps/lnx64/jre9.0.4/bin/java
+Java initial memory (-Xms): 	128 MB
+Java maximum memory (-Xmx):	 3 GB
+
+
+User name: 	abergnol
+User home directory: /home/abergnol
+User working directory: /home/abergnol/Corso_VHDL/Lab9/Progetto/tri_mode_ethernet_mac_0_ex
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+RDI_BASEROOT: /home/eda/xilinx/Vivado
+HDI_APPROOT: /eda/xilinx/Vivado/2018.3
+RDI_DATADIR: /home/eda/xilinx/Vivado/2018.3/data
+RDI_BINDIR: /home/eda/xilinx/Vivado/2018.3/bin
+
+Vivado preferences file location: /home/abergnol/.Xilinx/Vivado/2018.3/vivado.xml
+Vivado preferences directory: /home/abergnol/.Xilinx/Vivado/2018.3/
+Vivado layouts directory: /home/abergnol/.Xilinx/Vivado/2018.3/layouts
+PlanAhead jar file location: 	/home/eda/xilinx/Vivado/2018.3/lib/classes/planAhead.jar
+Vivado log file location: 	/home/abergnol/Corso_VHDL/Lab9/Progetto/tri_mode_ethernet_mac_0_ex/vivado.log
+Vivado journal file location: 	/home/abergnol/Corso_VHDL/Lab9/Progetto/tri_mode_ethernet_mac_0_ex/vivado.jou
+Engine tmp dir: 	./.Xil/Vivado-214674-lxele02.pd.infn.it
+
+Xilinx Environment Variables
+----------------------------
+XILINX: /eda/xilinx/Vivado/2018.3/ids_lite/ISE
+XILINX_DSP: /eda/xilinx/Vivado/2018.3/ids_lite/ISE
+XILINX_PLANAHEAD: /eda/xilinx/Vivado/2018.3
+XILINX_SDK: /eda/xilinx/SDK/2018.3
+XILINX_VIVADO: /eda/xilinx/Vivado/2018.3
+XILINX_VIVADO_HLS: /eda/xilinx/Vivado/2018.3
+
+
+GUI allocated memory:	191 MB
+GUI max memory:		3,072 MB
+Engine allocated memory: 5,132 MB
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: START_PROGRESS_DIALOG
+// WARNING: HEventQueue.dispatchEvent() is taking  1006 ms.
+// TclEventType: START_PROGRESS_DIALOG
+// bx (cp):  Sourcing Tcl script '/home/abergnol/Corso_VHDL/Lab9/Progetto/tri_mode_ethernet_mac_0_ex/tri_mode_ethernet_mac_0_ex.tcl' : addNotify
+// WARNING: HEventQueue.dispatchEvent() is taking  1328 ms.
+// Tcl Message: source /home/abergnol/Corso_VHDL/Lab9/Progetto/tri_mode_ethernet_mac_0_ex/tri_mode_ethernet_mac_0_ex.tcl -notrace 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 5,142 MB. GUI used memory: 80 MB. Current time: 1/7/20, 6:10:12 PM CET
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_ADD
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_DASHBOARD_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_NEW
+// Tcl Message: INFO: [open_example_project] Creating new example project... 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 100 MB (+102897kb) [00:00:17]
+// [Engine Memory]: 5,212 MB (+5313686kb) [00:00:17]
+// [GUI Memory]: 116 MB (+11063kb) [00:00:17]
+// WARNING: HEventQueue.dispatchEvent() is taking  2374 ms.
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/eda/xilinx/Vivado/2018.3/data/ip'. 
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// [GUI Memory]: 129 MB (+7291kb) [00:00:22]
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// TclEventType: RUN_MODIFY
+// TclEventType: PART_MODIFIED
+// Tcl Message: create_project: Time (s): cpu = 00:00:18 ; elapsed = 00:00:10 . Memory (MB): peak = 6639.625 ; gain = 153.492 ; free physical = 2889 ; free virtual = 92662 
+// TclEventType: PART_MODIFIED
+// TclEventType: PROJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: INFO: [open_example_project] Importing original IP ... 
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: INFO: [open_example_project] Generating the example project IP ... INFO: [open_example_project] Adding example synthesis HDL files ... INFO: [open_example_project] Adding example XDC files ... INFO: [open_example_project] Adding simulation HDL files ... 
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: find_top: Time (s): cpu = 00:00:07 ; elapsed = 00:00:13 . Memory (MB): peak = 6769.684 ; gain = 112.035 ; free physical = 2904 ; free virtual = 92682 
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order: Time (s): cpu = 00:00:06 ; elapsed = 00:00:13 . Memory (MB): peak = 6769.684 ; gain = 0.000 ; free physical = 2906 ; free virtual = 92684 
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// Tcl Message: update_compile_order: Time (s): cpu = 00:00:06 ; elapsed = 00:00:13 . Memory (MB): peak = 6769.684 ; gain = 0.000 ; free physical = 2906 ; free virtual = 92683 
+// Tcl Message: INFO: [open_example_project] Rebuilding all the top level IPs ... 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: STOP_PROGRESS_DIALOG
+// Tcl Message: export_ip_user_files: Time (s): cpu = 00:00:08 ; elapsed = 00:00:14 . Memory (MB): peak = 6769.684 ; gain = 0.000 ; free physical = 2893 ; free virtual = 92677 
+// Tcl Message: INFO: [open_example_project] Open Example Project completed 
+dismissDialog("Sourcing Tcl script '/home/abergnol/Corso_VHDL/Lab9/Progetto/tri_mode_ethernet_mac_0_ex/tri_mode_ethernet_mac_0_ex.tcl'"); // bx (cp)
+// TclEventType: STOP_PROGRESS_DIALOG
+// WARNING: HTimer (FileMgr Design Graph Update Timer) is taking 1380ms to process. Increasing delay to 3000 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1386 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  2025 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1026 ms.
+// Tcl Message: update_compile_order -fileset sources_1 
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 3646 ms. Increasing delay to 10938 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1513 ms.
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 18 ms. Decreasing delay to 2018 ms.

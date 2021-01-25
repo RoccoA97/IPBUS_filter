@@ -1,0 +1,43 @@
+;; -*- Emacs-Lisp -*-
+
+;;; .emacs-vhdl-cache-dir-antonio - design hierarchy cache file for Emacs VHDL Mode 3.38.1
+
+;; Directory : "~/Lab9/Progetto/firmware/Lab9.srcs/sources_1/top/"
+;; Saved     : 2020-01-20 18:02:19 antonio
+
+
+;; version number
+(setq vhdl-cache-version "3.38.1")
+
+;; directory name
+(setq directory "~/Lab9/Progetto/firmware/Lab9.srcs/sources_1/top/")
+
+;; entity and architecture cache
+(vhdl-aput 'vhdl-entity-alist directory '
+(("top_level" "top_level" "~/Lab9/Progetto/firmware/Lab9.srcs/sources_1/top/top_level.vhd" 9 (("rtl" "rtl" "~/Lab9/Progetto/firmware/Lab9.srcs/sources_1/top/top_level.vhd" 36 (("inst_system_clocks" "Inst_system_clocks" "~/Lab9/Progetto/firmware/Lab9.srcs/sources_1/top/top_level.vhd" 130 nil "system_clocks" nil nil "work" nil) ("eth_mac_block_1" "eth_mac_block_1" "~/Lab9/Progetto/firmware/Lab9.srcs/sources_1/top/top_level.vhd" 150 nil "tri_mode_ethernet_mac_0_fifo_block" nil nil "work" nil) ("ipbus" "ipbus" "~/Lab9/Progetto/firmware/Lab9.srcs/sources_1/top/top_level.vhd" 192 nil "ipbus_ctrl" nil nil "work" nil) ("fabric" "fabric" "~/Lab9/Progetto/firmware/Lab9.srcs/sources_1/top/top_level.vhd" 213 nil "ipbus_fabric" nil nil "work" nil) ("dpram" "dpram" "~/Lab9/Progetto/firmware/Lab9.srcs/sources_1/top/top_level.vhd" 223 "ipbus_dpram" "ipbus_dpram" nil nil nil nil) ("vio_dpram_i" "vio_dpram_i" "~/Lab9/Progetto/firmware/Lab9.srcs/sources_1/top/top_level.vhd" 251 nil "vio_dpram" nil nil "work" nil)) nil)) "rtl" (("ieee" . "std_logic_1164") ("ieee" . "numeric_std") ("unisim" . "vcomponents") ("work" . "ipbus"))))
+)
+
+;; configuration cache
+(vhdl-aput 'vhdl-config-alist directory '
+nil
+)
+
+;; package cache
+(vhdl-aput 'vhdl-package-alist directory '
+nil
+)
+
+;; instantiated entities cache
+(vhdl-aput 'vhdl-ent-inst-alist directory '
+(("vio_dpram" "ipbus_dpram" "ipbus_fabric" "ipbus_ctrl" "tri_mode_ethernet_mac_0_fifo_block" "system_clocks"))
+)
+
+;; design units per file cache
+(vhdl-aput 'vhdl-file-alist directory '
+(("~/Lab9/Progetto/firmware/Lab9.srcs/sources_1/top/top_level.vhd" ("top_level") ("rtl") ("top_level") nil nil nil ("vio_dpram_i" "dpram" "fabric" "ipbus" "eth_mac_block_1" "inst_system_clocks") ("vio_dpram" "ipbus_dpram" "ipbus_fabric" "ipbus_ctrl" "tri_mode_ethernet_mac_0_fifo_block" "system_clocks")))
+)
+
+;; shown design units cache
+(vhdl-aput 'vhdl-speedbar-shown-unit-alist directory '
+nil
+)

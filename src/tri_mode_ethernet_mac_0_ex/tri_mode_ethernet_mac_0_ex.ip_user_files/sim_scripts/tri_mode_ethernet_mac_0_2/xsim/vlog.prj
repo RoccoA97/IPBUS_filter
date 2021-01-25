@@ -1,0 +1,9 @@
+sv xil_defaultlib  \
+"/eda/xilinx/Vivado/2018.3/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv" \
+
+verilog tri_mode_ethernet_mac_v9_0_13  \
+"../../../ipstatic/hdl/tri_mode_ethernet_mac_v9_0_rfs.v" \
+
+verilog xil_defaultlib "glbl.v"
+
+nosort
