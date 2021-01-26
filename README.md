@@ -12,7 +12,7 @@
 
 * [**Rocco Ardino**](https://github.com/RoccoA97) (University of Padua)
 * [**Alessandro Lambertini**](https://github.com/Lambe96) (University of Padua)
-* [**Alice Pagano**](https://github.com/AlicePagano?tab=repositories) (University of Padua)
+* [**Alice Pagano**](https://github.com/AlicePagano) (University of Padua)
 * [**Michele Puppin**](https://github.com/michelepuppin) (University of Padua)
 
 
